@@ -1,0 +1,171 @@
+.header {
+  /* background-color: var(--header-onFirst); */
+  /* background: black; */
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  transition: all 0.1s ease-in-out;
+}
+.dropdown-menu{
+   position: relative;
+}
+.userProfile{
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+  margin-top: 5px;
+  margin-right: 2.5rem;
+  color: white;
+  background: black;
+  border-radius: 30px;
+  width: 105px;
+  cursor: pointer;
+}
+.userProfile:hover{
+  background: #3E3E3E;
+}
+.userProfile p{
+  margin: 0 5px;
+  font-weight: bolder;
+  letter-spacing: -0.1px;
+  font-size: 14px;
+}
+.accountIcon{
+  color: white;
+  background: #4B4B4B;
+  border-radius: 100%;
+  padding: 3px;
+  font-size: 30px !important;
+}
+.dropdown{
+   background: #282828;
+   width: 185px;
+   height: 250px;
+   position: absolute;
+   top: 50px;
+   right: 40px;
+   color: white;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(62,62,62,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(62,62,62,1);
+box-shadow: 0px 0px 5px 0px rgba(62,62,62,1);
+}
+.dropdown-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* padding: 10px; */
+  
+}
+.dropdown-list li{
+  /* padding: 5px; */
+  margin-bottom: 5px;
+  height: 38px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f0c5c5;
+  cursor: pointer;
+}
+.dropdown-list li:hover{
+  background: #3e3e3e;
+}
+.logoutHeader{
+  border-top: 1px solid var(--color-grey2);
+}
+.arrow-group{
+  display: flex;
+  align-items: center;
+  margin-left: 16rem;
+  margin-top: 5px;
+}
+.playable{
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  /* pointer-events: none; */
+  transition: 0.2s all ease-in-out;
+}
+.playable__active{
+  opacity: 1 ;
+  pointer-events: initial;
+}
+.playable__deactive{
+  opacity: 0;
+  pointer-events: none;
+}
+.playable .playable__icon{
+  color: var(--color-green);
+  font-size: 3rem;
+}
+.playable span{
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-left: 7px;
+}
+.navigation-arrow{
+  background: var(--color-black);
+  border-radius: 100%;
+  margin: 0 10px;
+  padding: 15px;
+  position: relative;
+  outline: none;
+  border: none;
+}
+.navigation-arrow > *{
+  color: var(--color-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%,-50%);
+  cursor: pointer;
+}
+.navigation-arrow:disabled.navigation-arrow > *{
+  color: var(--color-grey2);
+  cursor: not-allowed;
+}
+
+.header .list-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.list-item {
+    display: inline-block;
+    margin-top: 7px;
+}
+.list-item a {
+    display: inline-block;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    cursor: default;
+}
+.signup a {
+  color: var(--color-grey);
+  font-weight: 700;
+}
+.signup:hover a{
+    color: white;
+}
+.login {
+    background: white;
+    border-radius: 30px;
+    margin-right: 2rem;
+}
+.login:hover{
+    transform: scale(1.05);
+}
+
+.login a{
+    color: black;
+    font-weight: 700;
+}
+

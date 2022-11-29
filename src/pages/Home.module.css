@@ -1,0 +1,19 @@
+.home{
+    /* flex: 5.2;
+    padding: 6rem 0 0 10px; */
+    overflow-x: hidden;
+}
+.hero{
+    height: 50vh;
+    padding:6rem 0 0 10px;
+    color: white;
+}
+.hero h1{
+    padding-left: 1rem;
+}
+.playlistGroup{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+

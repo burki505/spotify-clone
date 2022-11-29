@@ -1,0 +1,26 @@
+.each-playlist {
+    margin-bottom: 3rem;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+  }
+  .title h2 {
+    font-size: 1.5em;
+    letter-spacing: -1px;
+  }
+  .title .link-seeAll {
+    font-size: 0.8rem;
+    color: var(--color-grey);
+    font-weight: bolder;
+  }
+  
+  .playlist-container {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }

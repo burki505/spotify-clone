@@ -1,0 +1,13 @@
+.button {
+    display: inline-block;
+    padding: 1rem 3.5rem;
+    border-radius: 40px;
+    background: var(--color-green);
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button:hover{
+    transform: scale(1.05);
+}

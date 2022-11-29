@@ -1,0 +1,138 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  padding: 1rem 0;
+  overflow-x: hidden;
+  background: white;
+}
+.signupForm img {
+  margin: 0 2.2rem 2rem 0;
+  object-fit: cover;
+}
+.brandBorder{
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+.signupForm h1 {
+  text-align: center;
+  width: 400px;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.buttonGroup p {
+  margin-left: 10px;
+}
+.buttonGroup button {
+  height: 45px;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.buttonGroup .buttonGroup__facebook {
+  background: #405a93;
+  color: white;
+}
+.buttonGroup .buttonGroup__apple{
+  background: var(--color-black);
+  color: #fff;
+ 
+}
+.buttonGroup .buttonGroup__google{
+  background: #fff;
+  color: var(--main-background);
+  border: 1px solid var(--color-black);
+}
+.seperate {
+  color: var(--color-grey);
+  letter-spacing: 1px;
+  font-size: 20px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.seperate::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  width: 160px;
+  height: 1px;
+  background: var(--color-grey);
+}
+.seperate::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  width: 160px;
+  height: 1px;
+  background: var(--color-grey);
+}
+.seperateTitle {
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  min-width: 300px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFormGroup {
+  margin-bottom: 1rem;
+}
+.birthday {
+  max-width: 200px;
+}
+.birthday h2 {
+  font-size: 16px;
+}
+.inputFormGroup__birthdayGroups {
+  display: flex;
+  margin-top: 1rem;
+}
+.day,
+.month {
+  margin-right: 15px;
+}
+.day input, .year input{
+  width: 7em;
+}
+.month input{
+  width: 12.5em;
+}
+
+.signupButton{
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.accountLogin{
+  display: flex;
+  margin-top: 1.5rem;
+}
+.accountLogin p{
+  color: var(--color-black);
+  font-weight: 400;
+  margin-right: 8px;
+}
+.accountLogin a{
+  text-decoration: dashed;
+  color: var(--color-green);
+}
+
+.refreshPassword{
+  color: var(--color-black);
+  font-weight: 500;
+  margin-right: 19rem;
+}

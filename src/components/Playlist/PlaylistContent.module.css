@@ -1,0 +1,140 @@
+.content {
+  height: 100%;
+  background: var(--main-background2);
+  padding: 0 0 10px 0;
+  position: relative;
+  top: 0;
+}
+.hero {
+  position: relative;
+  padding: 6rem 2rem;
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.heroImage {
+  width: 220px;
+  height: 220px;
+  z-index: 1;
+}
+
+.heroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.AlbumDefiner{
+  font-size: 15px;
+  font-weight: bold;
+}
+.AlbumTitle{
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.descriptionGroup {
+  padding: 0 3rem;
+  color: #fff;
+  z-index: 4;
+}
+.topHero h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.topHero h1 {
+  font-size: 5.5rem;
+  margin-bottom: 2rem;
+}
+.heroMain .description {
+  color: var(--color-grey2);
+  margin-top: 5px;
+}
+.statics {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.statics p {
+  margin-right: 3px;
+}
+.statics span {
+  color: var(--color-grey2);
+}
+.playlist {
+  position: relative;
+  /* top: -100px; */
+  color: white;
+  padding: 0rem 1.5rem 6rem 1.5rem;
+}
+.buttonGroup {
+  display: flex;
+  align-items: center;
+}
+.buttonGroup .play {
+  color: var(--color-green);
+  font-size: 4.5rem;
+}
+.buttonGroup .play:hover {
+  transform: scale(1.05);
+}
+.buttonGroup .like {
+  color: var(--color-grey2);
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
+}
+.buttonGroup .like:hover {
+  color: white;
+}
+
+.musicTable {
+  margin-top: 2rem;
+}
+.table {
+  border-collapse: collapse;
+}
+.idHeader,
+.titleHeader,
+.albumHeader,
+.dateHeader {
+  padding-bottom: 1rem;
+  color: var(--color-grey2);
+  font-size: 14px;
+}
+.idHeader {
+  padding-right: 1rem;
+}
+.titleHeader {
+  padding-right: 25rem;
+}
+.albumHeader {
+  padding-right: 20rem;
+}
+.dateHeader {
+  padding-right: 15rem;
+}
+.header {
+  border-bottom: 1px solid var(--playlist-hover);
+}
+.footer {
+  padding-top: 0;
+}
+.username {
+  font-weight: bold;
+  letter-spacing: -0.8px;
+}
+.addTrack {
+  background-color: var(--color-green);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+}
+.createdPlaylist h1 {
+  color: white;
+  font-size: 7rem;
+}

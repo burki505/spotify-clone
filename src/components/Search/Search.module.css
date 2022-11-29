@@ -1,0 +1,21 @@
+.search{
+    position: relative;
+    top: 0px;
+    padding: 6rem 0 2rem 25px;
+    background: var(--main-background2);
+    height: 100%;
+}
+.search h2{
+    color: white;
+    letter-spacing: -1px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+
+}
+.footer{
+    padding: 3rem 0 0 0;
+}

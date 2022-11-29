@@ -1,0 +1,33 @@
+.id {
+  vertical-align: center;
+  padding-top: 30px;
+}
+.album,
+.date,
+.duration {
+  padding-top: 14px;
+}
+.title {
+  padding-top: 2rem;
+  display: flex;
+}
+.title img {
+  width: 35px;
+  object-fit: cover;
+}
+.title div {
+  margin-left: 10px;
+}
+.title div h3 {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.title div span {
+  color: var(--color-grey2);
+}
+.album,
+.date,
+.duration {
+  color: var(--color-grey2);
+  font-size: 14px;
+}

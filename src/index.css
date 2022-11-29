@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-background: #1d1d1d;
+  --main-background2: #121212;
+  --header-onFirst: #101010;
+  --playlist-hover: #282828;
+  --color-grey: #b2b2b2;
+  --color-grey2: #9f9f9f;
+  --color-mainBlue: #3578a1;
+  --color-blue: #10222d;
+  --color-blue2: #0D2636;
+  --color-green: #1fdf64;
+  --color-dark-red: #451616;
+  --color-reddish: #300808;
+  --color-light-brown: #333b27;
+  --color-black: #000000;
+  --color-white: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  
+}
+
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.sidebar-brand {
+  width: 130px;
+  object-fit: cover;
+  margin: 1.5rem 0 0 1.5rem;
+}
+.sidebar-brand-login{
+  width: 200px;
+  object-fit: cover;
+  margin: 1.5rem 0 0 1.5rem;
+}
+.App{
+  position: relative;
+  display: flex;
+}
+.main-content{
+  flex: 5;
+}
+.routes{
+  background: rgb(30,30,30);
+background: linear-gradient(90deg, rgba(30,30,30,1) 0%, rgba(18,18,18,1) 50%, rgba(18,18,18,1) 100%);
 }
