@@ -18,6 +18,7 @@ const Input = ({
 
   const changeHandler = (e) => {
     setValue({ [e.target.name]: e.target.value, name: e.target.name });
+    console.log(value);
   };
 
 

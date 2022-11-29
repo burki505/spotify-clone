@@ -26,7 +26,6 @@ function App() {
     (state) => state.auth.showSideAndHeader
   );
 
-  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
 
   useEffect(() => {
     if (
